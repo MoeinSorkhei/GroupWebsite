@@ -1,5 +1,5 @@
 ---
-title: "Kevin's group - Home"
+title: "Home"
 layout: homelay
 excerpt: "Kevin and Moein at KTH."
 sitemap: false

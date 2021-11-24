@@ -5,3 +5,4 @@ tmp/
 *.DS_Store
 **/.DS_Scleartore
 trash/
+_site/*
