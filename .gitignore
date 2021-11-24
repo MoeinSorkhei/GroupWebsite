@@ -6,3 +6,4 @@ tmp/
 **/.DS_Scleartore
 trash/
 _site/*
+.jekyll-cache/*
