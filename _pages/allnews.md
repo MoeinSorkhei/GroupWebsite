@@ -1,7 +1,7 @@
 ---
 title: "News"
 layout: text_lay
-excerpt: "Kevin's group at KTH Royal Institute of Technology."
+excerpt: "News"
 sitemap: false
 permalink: /allnews.html
 ---
