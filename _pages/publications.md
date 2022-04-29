@@ -9,39 +9,23 @@ permalink: /publications/
 
 # Publications
 
-[comment]: <> ({% assign number_printed = 0 %})
 {% for publi in site.data.publist %}
 
-[comment]: <> ({% assign even_odd = number_printed | modulo: 2 %})
-
-[comment]: <> ({% if even_odd == 0 %})
 <div class="row">
-
-[comment]: <> ({% endif %})
-
 <div class="container-fluid">
- <div class="well">
+
+<div class="well">
   <pubtit>{{ publi.title }}</pubtit>
   <p><em>{{ publi.authors }}</em></p>
-  <p><strong><a href="{{ publi.link.url }}">{{ publi.link.display }}</a></strong></p>
- </div>
+  <p>
+    <a href="{{ publi.url }}"><i class="far fa-file-pdf"></i> PDF</a> &nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="{{ publi.citation }}"><i class="far fa-file-alt"></i> BibTex</a>&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="{{ publi.github }}"><i class="fas fa-code"></i> GitHub</a>&nbsp;&nbsp;&nbsp;&nbsp;
+  </p>
 </div>
 
-[comment]: <> ({% assign number_printed = number_printed | plus: 1 %})
-
-[comment]: <> ({% if even_odd == 1 %})
+</div>
 </div>
 
-[comment]: <> ({% endif %})
 {% endfor %}
-
-[comment]: <> ({% assign even_odd = number_printed | modulo: 2 %})
-
-[comment]: <> ({% if even_odd == 1 %})
-
-[comment]: <> (</div>)
-
-[comment]: <> ({% endif %})
-
-[comment]: <> (<p> &nbsp; </p>)
 
