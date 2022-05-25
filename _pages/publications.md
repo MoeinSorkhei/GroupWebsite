@@ -16,14 +16,14 @@ permalink: /publications/
 
 <div class="well">
   <pubtit>{{ publi.title }}</pubtit>
-  <p><em>{{ publi.authors }}</em></p>
+  <p>{{ publi.authors }}</p>
+  <p><em>{{ publi.venue }}</em></p>
   <p>
     <a href="{{ publi.url }}"><i class="far fa-file-pdf"></i> PDF</a> &nbsp;&nbsp;&nbsp;&nbsp;
-    <a href="{{ publi.citation }}"><i class="far fa-file-alt"></i> BibTex</a>&nbsp;&nbsp;&nbsp;&nbsp;
-    <a href="{{ publi.github }}"><i class="fas fa-code"></i> GitHub</a>&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="/bibtex/{{ publi.id }}.bib"><i class="far fa-file-alt"></i> BibTex</a>&nbsp;&nbsp;&nbsp;&nbsp;
+    {% if publi.code %} <a href="{{ publi.code }}"><i class="fas fa-code"></i> Code</a>&nbsp;&nbsp;&nbsp;&nbsp; {% endif %}
   </p>
 </div>
-
 </div>
 </div>
 

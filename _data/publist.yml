@@ -1,56 +1,64 @@
+- title: "What Makes Transfer Learning Work For Medical Images: Feature Reuse & Other Factors"
+  id: "matsoukas2022makes"
+  authors: "Christos Matsoukas, Johan Fredin Haslum, Moein Sorkhei, Magnus Soderberg, Kevin Smith"
+  url: "https://arxiv.org/abs/2203.01825"
+  venue: "Computer Vision and Pattern Recognition (CVPR 2022)"
+#  code: ""
+
 - title: "Is it Time to Replace CNNs with Transformers for Medical Images?"
-  image: "saliency_maps.png"
-  imgwidth: "18%"
-  description: "Convolutional Neural Networks (CNNs) have reigned for a decade as the de facto approach to automated medical image diagnosis. Recently, vision transformers (ViTs) have appeared as a competitive alternative to CNNs, yielding similar levels of performance while possessing several interesting properties that could prove beneficial for medical imaging tasks. In this work, we explore whether it is time to move to transformer-based models or if we should keep working with CNNs - can we trivially switch to transformers? If so, what are the advantages and drawbacks of switching to ViTs for medical image diagnosis? We consider these questions in a series of experiments on three mainstream medical image datasets. Our findings show that, while CNNs perform better when trained from scratch, off-the-shelf vision transformers using default hyperparameters are on par with CNNs when pretrained on ImageNet, and outperform their CNN counterparts when pretrained using self-supervision."
+  id: "matsoukas2021time"
   authors: "Christos Matsoukas, Johan Fredin Haslum, Magnus Söderberg, Kevin Smith"
   url: "https://arxiv.org/abs/2108.09038"
   venue: "ICCV 2021 Workshop on Computer Vision for Automated Medical Diagnosis (CVAMD)"
-  citation: "https://scholar.googleusercontent.com/scholar.bib?q=info:Uf666rPD3QQJ:scholar.google.com/&output=citation&scisdr=CgUDm8UtEImstvrqL-c:AAGBfm0AAAAAYmvsN-c_2cIXoD36LIn1hz8wxFuX2rYz&scisig=AAGBfm0AAAAAYmvsNzaLI1fhXR3r3fNZkvL4OP3pCaAM&scisf=4&ct=citation&cd=0&hl=en"
-  github: "https://github.com/ChrisMats/medical_transformers"
-  highlight: 0
-  news1: ""
-  news2: ""
+  code: "https://github.com/ChrisMats/medical_transformers"
+    #  image: "saliency_maps.png"
+    #  imgwidth: "18%"
+    #  description: "Convolutional Neural Networks (CNNs) have reigned for a decade as the de facto approach to automated medical image diagnosis. Recently, vision transformers (ViTs) have appeared as a competitive alternative to CNNs, yielding similar levels of performance while possessing several interesting properties that could prove beneficial for medical imaging tasks. In this work, we explore whether it is time to move to transformer-based models or if we should keep working with CNNs - can we trivially switch to transformers? If so, what are the advantages and drawbacks of switching to ViTs for medical image diagnosis? We consider these questions in a series of experiments on three mainstream medical image datasets. Our findings show that, while CNNs perform better when trained from scratch, off-the-shelf vision transformers using default hyperparameters are on par with CNNs when pretrained on ImageNet, and outperform their CNN counterparts when pretrained using self-supervision."
+    #  citation: "https://scholar.googleusercontent.com/scholar.bib?q=info:Uf666rPD3QQJ:scholar.google.com/&output=citation&scisdr=CgUDm8UtEImstvrqL-c:AAGBfm0AAAAAYmvsN-c_2cIXoD36LIn1hz8wxFuX2rYz&scisig=AAGBfm0AAAAAYmvsNzaLI1fhXR3r3fNZkvL4OP3pCaAM&scisf=4&ct=citation&cd=0&hl=en"
 
 
-#- title: "CSAW-M: An Ordinal Classification Dataset for Benchmarking Mammographic Masking of Cancer"
-#  image: "masking_levels.png"
-#  imgwidth: "50%"
-#  description: "Interval and large invasive breast cancers, which are associated with worse prog- nosis than other cancers, are usually detected at a late stage due to false negative assessments of screening mammograms. The missed screening-time detection is commonly caused by the tumor being obscured by its surrounding breast tissues, a phenomenon called masking. To study and benchmark mammographic masking of cancer, in this work we introduce CSAW-M, the largest public mammographic dataset, collected from over 10,000 individuals and annotated with potential mask- ing. In contrast to the previous approaches which measure breast image density as a proxy, our dataset directly provides annotations of masking potential assess- ments from five specialists. We also trained deep learning models on CSAW-M to estimate the masking level and showed that the estimated masking is significantly more predictive of screening participants diagnosed with interval and large invasive cancers – without being explicitly trained for these tasks – than its breast density counterparts."
-#  authors: "Moein Sorkhei* , Yue Liu*, Hossein Azizpour, Edward Azavedo, Karin Dembrower, Dimitra Ntoula, Athanasios Zouzos, Fredrik Strand, Kevin Smith"
-#  link:
-#    url: "https://openreview.net/forum?id=nlJ1rV6G_Iq"
-#    display:  "Neural Information Processing Systems (NeurIPS 2021) Track on Datasets and Benchmarks"
-#  highlight: 0
-#  news1: ""
-#  news2: ""
-#
-#
-#
-#- title: "Toward robust mammography-based models for breast cancer risk"
-#  image: "toward_robust.png"
-#  imgwidth: "15%"
-#  description: "Improved breast cancer risk models enable targeted screening strategies that achieve earlier detection and less screening harm than existing guidelines. To bring deep learning risk models to clinical practice, we need to further refine their accuracy, validate them across diverse populations, and demonstrate their potential to improve clinical workflows. We developed Mirai, a mammography-based deep learning model designed to predict risk at multiple timepoints, leverage potentially missing risk factor information, and produce predictions that are consistent across mammography machines. Mirai was trained on a large dataset from Massachusetts General Hospital (MGH) in the United States and tested on held-out test sets from MGH, Karolinska University Hospital in Sweden, and Chang Gung Memorial Hospital (CGMH) in Taiwan, obtaining C-indices of 0.76 (95% confidence interval, 0.74 to 0.80), 0.81 (0.79 to 0.82), and 0.79 (0.79 to 0.83), respectively. Mirai obtained significantly higher 5-year ROC AUCs than the Tyrer-Cuzick model (P < 0.001) and prior deep learning models Hybrid DL (P < 0.001) and Image-Only DL (P < 0.001), trained on the same dataset. Mirai more accurately identified high-risk patients than prior methods across all datasets. On the MGH test set, 41.5% (34.4 to 48.5) of patients who would develop cancer within 5 years were identified as high risk, compared with 36.1% (29.1 to 42.9) by Hybrid DL (P = 0.02) and 22.9% (15.9 to 29.6) by the Tyrer-Cuzick model (P < 0.001)."
-#  authors: "Adam Yala, Peter G Mikhael, Fredrik Strand, Gigin Lin, Kevin Smith, Yung-Liang Wan, Leslie Lamb, Kevin Hughes, Constance Lehman, Regina Barzilay"
-#  link:
-#    url: "https://www.notion.so/Toward-robust-mammography-based-models-for-breast-cancer-risk-effb9b5e753241bc83208e1588e6f582#7d3a3b8e007b4358b969b6078799a2a9"
-#    display: "Science Translational Medicine 2021"
-#  highlight: 0
-#  news1: ""
-#  news2: ""
-#
-#
-#
-#- title: "Ultrasound image analysis using deep neural networks for discriminating between benign and malignant ovarian tumors: comparison with expert subjective assessment"
-#  image: "ultrasound.png"
-#  imgwidth: "40%"
-#  description: "The objective of this project was to develop and test the performance of computerized ultrasound image analysis using deep neural networks (DNNs) in discriminating between benign and malignant ovarian tumors and to compare its diagnostic accuracy with that of subjective assessment (SA) by an ultrasound expert. We included 3077 (grayscale, n = 1927; power Doppler, n = 1150) ultrasound images from 758 women with ovarian tumors, who were classified prospectively by expert ultrasound examiners according to IOTA (International Ovarian Tumor Analysis) terms and definitions. Histological outcome from surgery (n = 634) or long-term (≥ 3 years) follow-up (n = 124) served as the gold standard. The dataset was split into a training set (n = 508; 314 benign and 194 malignant), a validation set (n = 100; 60 benign and 40 malignant) and a test set (n = 150; 75 benign and 75 malignant). We used transfer learning on three pre-trained DNNs: VGG16, ResNet50 and MobileNet. Each model was trained, and the outputs calibrated, using temperature scaling. An ensemble of the three models was then used to estimate the probability of malignancy based on all images from a given case. The DNN ensemble classified the tumors as benign or malignant (Ovry-Dx1 model); or as benign, inconclusive or malignant (Ovry-Dx2 model). The diagnostic performance of the DNN models, in terms of sensitivity and specificity, was compared to that of SA for classifying ovarian tumors in the test set. At a sensitivity of 96.0%, Ovry-Dx1 had a specificity similar to that of SA (86.7% vs 88.0%; P = 1.0). Ovry-Dx2 had a sensitivity of 97.1% and a specificity of 93.7%, when designating 12.7% of the lesions as inconclusive. By complimenting Ovry-Dx2 with SA in inconclusive cases, the overall sensitivity (96.0%) and specificity (89.3%) were not significantly different from using SA in all cases (P = 1.0)."
-#  authors: "F. Christiansen, E. L. Epstein, E. Smedberg, M. Åkerlund, K. Smith, E. Epstein"
-#  link:
-#    url: "https://www.notion.so/Ultrasound-image-analysis-using-deep-neural-networks-for-discriminating-between-benign-and-malignant-612557cb5c914609be43af12049fe4d8#27edf797eaea46a08789b6ea4fb556e5"
-#    display: "Ultrasound in Obstetrics and Gynecology 2021"
-#  highlight: 0
-#  news1: ""
-#  news2: ""
+- title: "CSAW-M: An Ordinal Classification Dataset for Benchmarking Mammographic Masking of Cancer"
+  id: "sorkhei2021csaw"
+  authors: "Moein Sorkhei* , Yue Liu*, Hossein Azizpour, Edward Azavedo, Karin Dembrower, Dimitra Ntoula, Athanasios Zouzos, Fredrik Strand, Kevin Smith"
+  url: "https://openreview.net/forum?id=nlJ1rV6G_Iq"
+  venue:  "Neural Information Processing Systems (NeurIPS 2021) Track on Datasets and Benchmarks"
+  code: "https://github.com/yueliukth/CSAW-M"
+  #  link:
+  #  image: "masking_levels.png"
+  #  imgwidth: "50%"
+  #  description: "Interval and large invasive breast cancers, which are associated with worse prog- nosis than other cancers, are usually detected at a late stage due to false negative assessments of screening mammograms. The missed screening-time detection is commonly caused by the tumor being obscured by its surrounding breast tissues, a phenomenon called masking. To study and benchmark mammographic masking of cancer, in this work we introduce CSAW-M, the largest public mammographic dataset, collected from over 10,000 individuals and annotated with potential mask- ing. In contrast to the previous approaches which measure breast image density as a proxy, our dataset directly provides annotations of masking potential assess- ments from five specialists. We also trained deep learning models on CSAW-M to estimate the masking level and showed that the estimated masking is significantly more predictive of screening participants diagnosed with interval and large invasive cancers – without being explicitly trained for these tasks – than its breast density counterparts."
+  #  highlight: 0
+  #  news1: ""
+  #  news2: ""
+
+
+- title: "Toward robust mammography-based models for breast cancer risk"
+  id: "yala2021toward"
+  authors: "Adam Yala, Peter G Mikhael, Fredrik Strand, Gigin Lin, Kevin Smith, Yung-Liang Wan, Leslie Lamb, Kevin Hughes, Constance Lehman, Regina Barzilay"
+  url: "https://www.notion.so/Toward-robust-mammography-based-models-for-breast-cancer-risk-effb9b5e753241bc83208e1588e6f582#7d3a3b8e007b4358b969b6078799a2a9"
+  venue: "Science Translational Medicine 2021"
+  code: "https://www.learningtocure.csail.mit.edu/"
+  #  image: "toward_robust.png"
+  #  imgwidth: "15%"
+  #  description: "Improved breast cancer risk models enable targeted screening strategies that achieve earlier detection and less screening harm than existing guidelines. To bring deep learning risk models to clinical practice, we need to further refine their accuracy, validate them across diverse populations, and demonstrate their potential to improve clinical workflows. We developed Mirai, a mammography-based deep learning model designed to predict risk at multiple timepoints, leverage potentially missing risk factor information, and produce predictions that are consistent across mammography machines. Mirai was trained on a large dataset from Massachusetts General Hospital (MGH) in the United States and tested on held-out test sets from MGH, Karolinska University Hospital in Sweden, and Chang Gung Memorial Hospital (CGMH) in Taiwan, obtaining C-indices of 0.76 (95% confidence interval, 0.74 to 0.80), 0.81 (0.79 to 0.82), and 0.79 (0.79 to 0.83), respectively. Mirai obtained significantly higher 5-year ROC AUCs than the Tyrer-Cuzick model (P < 0.001) and prior deep learning models Hybrid DL (P < 0.001) and Image-Only DL (P < 0.001), trained on the same dataset. Mirai more accurately identified high-risk patients than prior methods across all datasets. On the MGH test set, 41.5% (34.4 to 48.5) of patients who would develop cancer within 5 years were identified as high risk, compared with 36.1% (29.1 to 42.9) by Hybrid DL (P = 0.02) and 22.9% (15.9 to 29.6) by the Tyrer-Cuzick model (P < 0.001)."
+  #  highlight: 0
+  #  news1: ""
+  #  news2: ""
+
+
+
+- title: "Ultrasound image analysis using deep neural networks for discriminating between benign and malignant ovarian tumors: comparison with expert subjective assessment"
+  id: "christiansen2021ultrasound"
+  authors: "F. Christiansen, E. L. Epstein, E. Smedberg, M. Åkerlund, K. Smith, E. Epstein"
+  url: "https://www.notion.so/Ultrasound-image-analysis-using-deep-neural-networks-for-discriminating-between-benign-and-malignant-612557cb5c914609be43af12049fe4d8#27edf797eaea46a08789b6ea4fb556e5"
+  venue: "Ultrasound in Obstetrics and Gynecology 2021"
+#  code: ""  # could not find anything
+  #  image: "ultrasound.png"
+  #  imgwidth: "40%"
+  #  description: "The objective of this project was to develop and test the performance of computerized ultrasound image analysis using deep neural networks (DNNs) in discriminating between benign and malignant ovarian tumors and to compare its diagnostic accuracy with that of subjective assessment (SA) by an ultrasound expert. We included 3077 (grayscale, n = 1927; power Doppler, n = 1150) ultrasound images from 758 women with ovarian tumors, who were classified prospectively by expert ultrasound examiners according to IOTA (International Ovarian Tumor Analysis) terms and definitions. Histological outcome from surgery (n = 634) or long-term (≥ 3 years) follow-up (n = 124) served as the gold standard. The dataset was split into a training set (n = 508; 314 benign and 194 malignant), a validation set (n = 100; 60 benign and 40 malignant) and a test set (n = 150; 75 benign and 75 malignant). We used transfer learning on three pre-trained DNNs: VGG16, ResNet50 and MobileNet. Each model was trained, and the outputs calibrated, using temperature scaling. An ensemble of the three models was then used to estimate the probability of malignancy based on all images from a given case. The DNN ensemble classified the tumors as benign or malignant (Ovry-Dx1 model); or as benign, inconclusive or malignant (Ovry-Dx2 model). The diagnostic performance of the DNN models, in terms of sensitivity and specificity, was compared to that of SA for classifying ovarian tumors in the test set. At a sensitivity of 96.0%, Ovry-Dx1 had a specificity similar to that of SA (86.7% vs 88.0%; P = 1.0). Ovry-Dx2 had a sensitivity of 97.1% and a specificity of 93.7%, when designating 12.7% of the lesions as inconclusive. By complimenting Ovry-Dx2 with SA in inconclusive cases, the overall sensitivity (96.0%) and specificity (89.3%) were not significantly different from using SA in all cases (P = 1.0)."
+  #  highlight: 0
+  #  news1: ""
+  #  news2: ""
 
 
 
