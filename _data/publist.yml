@@ -46,7 +46,6 @@
   #  news2: ""
 
 
-
 - title: "Ultrasound image analysis using deep neural networks for discriminating between benign and malignant ovarian tumors: comparison with expert subjective assessment"
   id: "christiansen2021ultrasound"
   authors: "F. Christiansen, E. L. Epstein, E. Smedberg, M. Åkerlund, K. Smith, E. Epstein"
@@ -60,10 +59,136 @@
   #  news1: ""
   #  news2: ""
 
-#- title:
-#  id:
-#  authors:
-#  url:
-#  venue:
+- title: "Conditional De-Identification of 3D Magnetic Resonance Images"
+  id: "der2021conditional"
+  authors: "Lennart Alexander Van der Goten, Tobias Hepp, Zeynep Akata, Kevin Smith"
+#  url: "https://www.bmvc2021-virtualconference.com/assets/papers/"
+  url: "https://arxiv.org/abs/2110.09927"
+  venue: "The British Machine Vision Conference (BMVC) 2021"
 #  code:
+
+- title: "External Evaluation of 3 Commercial Artificial Intelligence Algorithms for Independent Assessment of Screening Mammograms"
+  id: "salim2020external"
+  authors: "Mattie Salim, Erik Wåhlin, Karin Dembrower, Edward Azavedo, Theodoros Foukakis, Yue Liu, Kevin Smith, Marting Eklund, Fredrik Strand"
+  url: "https://jamanetwork.com/journals/jamaoncology/article-abstract/2769894"
+  venue: "JAMA Oncology 2020"
+#  code: ""
+
+
+- title: "Effect of artificial intelligence-based triaging of breast cancer screening mammograms on cancer detection and radiologist workload: a retrospective simulation study"
+  id: "dembrower2020effect"
+  authors: "Karin Dembrower, Erik Wåhlin, Yue Liu, Mattie Salim, Kevin Smith, Peter Lindholm, Martin Eklund, Fredrik Strand"
+  url: "https://www.sciencedirect.com/science/article/pii/S2589750020301850"
+  venue: "The Lancet Digital Health 2020"
+#  code: ""
+
+
+- title: "Decoupling Inherent Risk and Early Cancer Signs in Image-based Breast Cancer Risk Models"
+  authors: "Yue Liu, Hossein Azizpour, Fredrik Strand, Kevin Smith"
+  venue: "International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI) 2020"
+  url: "https://link.springer.com/chapter/10.1007/978-3-030-59725-2_23"
+  code: "https://github.com/yueliukth/decoupling_breast_cancer_risk"
+  id: "liu2020decoupling"
+
+
+- title: "Adding Seemingly Uninformative Labels Helps in Low Data Regimes"
+  authors: "Christos Matsoukas, Albert Bou I Hernandez, Yue Liu, Karin Dembrower, Gisele Miranda, Emir Konuk, Johan Fredin Haslum, Athanasios Zouzos, Peter Lindholm, Fredrik Strand, Kevin Smith"
+  venue: "International Conference on Machine Learning (ICML) 2020"
+  url: "https://arxiv.org/abs/2008.00807"
+  code: "https://github.com/ChrisMats/seemingly_uninformative_labels"
+  id: "matsoukas2020adding"
+
+
+- title: "nucleAIzer: A Parameter-free Deep Learning Framework for Nucleus Segmentation Using Image Style Transfer"
+  authors: "Reka Hollandi, Abel Szkalisity, Timea Toth, Ervin Tasnadi, Csaba Molnar, Botond Mathe, Istvan Grexa, Jozsef Molnar, Arpad Balind, Mate Gorbe, Maria Kovacs, Ede Migh, Allen Goodman, Tamas Balassa, Krisztian Koos, Wenyu Wang, Norbert Bara, Ferenc Kovacs, Lassi Paavolainen, Tivadar Danka, Andras Kriston, Anne Carpenter, Kevin Smith, Peter Horvath"
+  venue: "Cell Systems 2020"
+  url: "https://www.sciencedirect.com/science/article/pii/S2405471220301174"
+  code: "https://github.com/spreka/biomagdsb"
+  id: "hollandi2020nucleaizer"
+#
+#
+- title: "Comparison of a deep learning risk score and standard mammographic density score for breast cancer risk prediction"
+  authors: "Karin Dembrower, Yue Liu, Hossein Azizpour, Martin Eklund, Kevin Smith, Peter Lindholm, Fredrik Strand"
+  venue: "Radiology 2020"
+  url: "https://pubs.rsna.org/doi/full/10.1148/radiol.2019190872"
+  code: "https://github.com/yueliukth/mammoai_risk_prediction"
+  id: "dembrower2020comparison"
+
+- title: "An empirical study of the relation between network architecture and complexity"
+  authors: "Emir Konuk, Kevin Smith"
+  venue: "International Conference on Computer Vision (ICCV) Preregistration Workshop 2019"
+  url: "https://arxiv.org/abs/1911.04120"
+#  code: ""
+  id: "konuk2019empirical"
+
+- title: "A role for the VPS retromer in Brucella intracellular replication revealed by genomewide siRNA screening"
+  authors: "Alain Casanova, Shyan Huey Low, Maxime Québatte, Jaroslaw Sedzicki, Therese Tschon, Maren Ketterer, Kevin Smith, Mario Emmenlauer, Houchaima Ben-Tekaya, Christoph Dehioa"
+  venue: "mSphere 2019"
+  url: "https://journals.asm.org/doi/full/10.1128/mSphere.00380-19"
+#  code: ""
+  id: "casanova2019role"
+
+- title: "Deep learning is combined with massive-scale citizen science to improve large-scale image classification"
+  authors: "Devin P Sullivan, Casper F Winsnes, Lovisa Åkesson, Martin Hjelmare, Mikaela Wiking, Rutger Schutten, Linzi Campbell, Hjalti Leifsson, Scott Rhodes, Andie Nordgren, Kevin Smith, Bernard Revaz, Bergur Finnbogason, Attila Szantner, Emma Lundberg"
+  venue: "Nature biotechnology 2018"
+  url: "https://www.nature.com/articles/nbt.4225"
+#  code: ""
+  id: "sullivan2018deep"
+
+
+- title: "Phenotypic image analysis software tools for exploring and understanding big image data from cell-based assays"
+  authors: "Kevin Smith, Filippo Piccinini, Tamas Balassa, Krisztian Koos, Tivadar Danka, Hossein Azizpour, Peter Horvath"
+  venue: "Cell systems 2018"
+  url: "https://www.sciencedirect.com/science/article/pii/S2405471218302412"
+#  code: ""
+  id: "smith2018phenotypic"
+
+
+- title: "Intelligent image-based in situ single-cell isolation"
+  authors: "Csilla Brasko, Kevin Smith, Csaba Molnar, Nora Farago, Lili Hegedus, Arpad Balind, Tamas Balassa, Abel Szkalisity, Farkas Sukosd, Katalin Kocsis, Balazs Balint, Lassi Paavolainen, Marton Z Enyedi, Istvan Nagy, Laszlo G Puskas, Lajos Haracska, Gabor Tamas, Peter Horvath"
+  venue: "Nature communications 2018"
+  url: "https://www.nature.com/articles/s41467-017-02628-4"
+#  code: ""
+  id: "brasko2018intelligent"
+
+
+- title: "Bayesian Uncertainty Estimation for Batch Normalized Deep Networks"
+  authors: "Mattias Teye, Hossein Azizpour, Kevin Smith"
+  venue: "International Conference on Machine Learning (ICML) 2018"
+  url: "https://arxiv.org/abs/1802.06455"
+  code: "https://github.com/icml-mcbn/mcbn"
+  id: "teye2018bayesian"
+
+
+- title: "Digital image analysis in breast pathology – from image processing techniques to artificial intelligence"
+  authors: "Stephanie Robertson, Hossein Azizpour, Kevin Smith, Johan Hartman"
+  venue: "Translational Research 2018"
+  url: "https://www.sciencedirect.com/science/article/abs/pii/S1931524417302955"
+#  code: ""
+  id: "robertson2018digital"
+
+
+#- title: ""
+#  authors: ""
+#  venue: ""
+#  url: ""
+##  code: ""
+#  id: ""
+
+
+#- title: ""
+#  authors: ""
+#  venue: ""
+#  url: ""
+##  code: ""
+#  id: ""
+
+
+#- title: ""
+#  authors: ""
+#  venue: ""
+#  url: ""
+##  code: ""
+#  id: ""
+
 
