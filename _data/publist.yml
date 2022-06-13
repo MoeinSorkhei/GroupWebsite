@@ -167,28 +167,47 @@
 #  code: ""
   id: "robertson2018digital"
 
+- title: "Advanced cell classifier: user-friendly machine-learning-based software for discovering phenotypes in high-content imaging data"
+  authors: "Filippo Piccinini, Tamas Balassa, Abel Szkalisity, Csaba Molnar, Lassi Paavolainen, Kaisa Kujala, Krisztina Buzas, Marie Sarazova, Vilja Pietiainen, Ulrike Kutay, Kevin Smith, Peter Horvath"
+  venue: "Cell systems 2017"
+  url: "https://www.sciencedirect.com/science/article/pii/S2405471217302272"
+  id: "piccinini2017advanced"
+  #  code: ""
 
-#- title: ""
-#  authors: ""
-#  venue: ""
-#  url: ""
-##  code: ""
-#  id: ""
-
-
-#- title: ""
-#  authors: ""
-#  venue: ""
-#  url: ""
-##  code: ""
-#  id: ""
+- title: "The Preimage of Rectifier Network Activities"
+  authors: "Stefan Carlsson, Hossein Azizpour, Ali Razavian, Josephine Sullivan, Kevin Smith"
+  venue: "International Conference on Learning Representations (ICLR) 2017 Workshop"
+  url: "https://openreview.net/forum?id=HJcLcw9xg"
+#  code: ""
+  id: "carlsson2016preimage"
 
 
-#- title: ""
-#  authors: ""
-#  venue: ""
-#  url: ""
-##  code: ""
-#  id: ""
+- title: "Multi-label prediction of subcellular localization in confocal images using deep neural networks"  # this paper has no pdf!
+  authors: "Casper Winsnes, Devin Sullivan, Kevin Smith, Emma Lundberg"
+  venue: "Molecular Biology of the Cell 2016"
+  url: "https://www.diva-portal.org/smash/record.jsf?pid=diva2:1087739"
+#  code: ""
+  id: "winsnes2016multi"
 
+
+- title: "Computer vision profiling of neurite outgrowth dynamics reveals spatiotemporal modularity of Rho GTPase signaling"
+  authors: "Ludovico Fusco, Riwal Lefort, Kevin Smith, Fethallah Benmansour, German Gonzalez, Caterina Barillari, Bernd Rinn, Francois Fleuret, Pascal Fua, Olivier Pertz"
+  venue: "Journal of Cell Biology 2016"
+  url: "https://rupress.org/jcb/article/212/1/91/38426/Computer-vision-profiling-of-neurite-outgrowth"
+#  code: ""
+  id: "fusco2016computer"
+
+
+- title: "Learning structured models for segmentation of 2-D and 3-D imagery"
+  authors: "Aurélien Lucchi, Pablo Márquez-Neila, Carlos Becker, Yunpeng Li, Kevin Smith, Graham Knott, Pascal Fua"
+  venue: "IEEE Transactions on Medical Imaging 2015"
+  url: "https://ieeexplore.ieee.org/abstract/document/6967781"
+  id: "lucchi2014learning"
+
+
+- title: "CIDRE: an illumination-correction method for optical microscopy"
+  authors: "Kevin Smith, Yunpeng Li, Filippo Piccinini, Gabor Csucs, Csaba Balazs, Alessandro Bevilacqua, Peter Horvath"
+  venue: "Nature Methods 2015"
+  url: "https://www.nature.com/articles/nmeth.3323"
+  id: "smith2015cidre"
 
