@@ -10,7 +10,7 @@
 
 - name: "Chrsitos Matsoukas"
   photo: rock.jpg
-  info: PhD student, started 2018
+  info: PhD student
   email: matsou@kth.se
   number_educ: 0
   education1:
@@ -20,7 +20,7 @@
 
 - name: "Moein Sorkhei"
   photo: rock.jpg
-  info: PhD student, started 2021
+  info: PhD student
   email: sorkhei@kth.se
   number_educ: 0
   education1:
@@ -30,7 +30,7 @@
 
 - name: "Johan Fredin Haslum"
   photo: rock.jpg
-  info: PhD student, started 2018
+  info: PhD student
   email: haslum@kth.se
   number_educ: 0
   education1:
@@ -40,7 +40,7 @@
 
 - name: "Lennart Van der Goten"
   photo: rock.jpg
-  info: PhD student, started 2019
+  info: PhD student
   email: lavdg@kth.se
   number_educ: 0
   education1:
@@ -50,7 +50,7 @@
 
 - name: "Yue Liu"
   photo: rock.jpg
-  info: PhD student, started 2018
+  info: PhD student
   email: yue3@kth.se
   number_educ: 0
   education1:
@@ -60,7 +60,7 @@
 
 - name: "Emir Konuk"
   photo: rock.jpg
-  info: PhD student, started 2018
+  info: PhD student
   email: ekonuk@kth.se
   number_educ: 0
   education1:
