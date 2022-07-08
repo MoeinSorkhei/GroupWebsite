@@ -1,15 +1,17 @@
 - name: "Kevin Smith"
-  photo: rock.jpg
+  webpage: https://www.kth.se/profile/ksmith
+  photo: kevin.jpg
   info: Associate Professor
   email: ksmith@kth.se
-  number_educ: 0
-  education1:
-  education2:
-  education3:
+  number_educ: 3
+  education1: Postdoc at ETH
+  education2: Postdoc at EPFL
+  education3: PhD at EPFL
   education4:
 
 - name: "Chrsitos Matsoukas"
-  photo: rock.jpg
+  webpage: https://www.kth.se/profile/matsou
+  photo: Christos.png
   info: PhD student
   email: matsou@kth.se
   number_educ: 0
@@ -19,17 +21,19 @@
   education4:
 
 - name: "Moein Sorkhei"
-  photo: rock.jpg
+  webpage: https://www.kth.se/profile/sorkhei
+  photo: Moein.png
   info: PhD student
   email: sorkhei@kth.se
-  number_educ: 0
-  education1:
-  education2:
+  number_educ: 2
+  education1: MSc at KTH
+  education2: BSc at Univ. of Tehran
   education3:
   education4:
 
 - name: "Johan Fredin Haslum"
-  photo: rock.jpg
+  webpage: https://www.kth.se/profile/jhaslum
+  photo: Johan.jpeg
   info: PhD student
   email: haslum@kth.se
   number_educ: 0
@@ -39,7 +43,8 @@
   education4:
 
 - name: "Lennart Van der Goten"
-  photo: rock.jpg
+  webpage: https://www.kth.se/profile/lavdg/?l=en
+  photo: Lennart.jpg
   info: PhD student
   email: lavdg@kth.se
   number_educ: 0
@@ -49,7 +54,8 @@
   education4:
 
 - name: "Yue Liu"
-  photo: rock.jpg
+  webpage: https://www.kth.se/profile/yue3?l=en
+  photo: Yue.jpg
   info: PhD student
   email: yue3@kth.se
   number_educ: 0
@@ -59,7 +65,8 @@
   education4:
 
 - name: "Emir Konuk"
-  photo: rock.jpg
+  webpage: https://www.kth.se/profile/ekonuk
+  photo: Emir.jpg
   info: PhD student
   email: ekonuk@kth.se
   number_educ: 0
@@ -68,10 +75,77 @@
   education3:
   education4:
 
+- name: "Jim Guo"
+  webpage: ""
+  photo: Avatar.png
+  info: PhD student
+  email: "yu137226@gmail.com"
+  number_educ: 0
+  education1:
+  education2:
+  education3:
+  education4:
+
+- name: "Joana Palés Huix"
+  webpage: https://staff.ki.se/people/joana-pales-huix
+  photo: Joana.png
+  info: PhD student
+  email: "joanaph@kth.se"
+  number_educ: 0
+  education1:
+  education2:
+  education3:
+  education4:
+
 - name: "Gisele Miranda"
-  photo: rock.jpg
+  webpage: https://www.kth.se/profile/gmirand
+  photo: Gisele.png
   info: Bioimage analyst
   email: gmirand@kth.se
+  number_educ: 0
+  education1:
+  education2:
+  education3:
+  education4:
+
+- name: "Adithya Raju Ganeshan"
+  webpage: https://staff.ki.se/people/adithya-raju-ganeshan
+  photo: Adithya.png
+  info: Research engineer
+  email: "ganeshan@kth.se"
+  number_educ: 0
+  education1:
+  education2:
+  education3:
+  education4:
+
+- name: "Robert Welch"
+  webpage: https://www.kth.se/profile/rwe2?l=en
+  photo: Avatar.png
+  info: Research engineer
+  email: "rwe2@kth.se"
+  number_educ: 0
+  education1:
+  education2:
+  education3:
+  education4:
+
+- name: "Filip Christiansen"
+  webpage: ""
+  photo: Filip.png
+  info: Master student
+  email: "filipchr@kth.se"
+  number_educ: 0
+  education1:
+  education2:
+  education3:
+  education4:
+
+- name: "Youssef Taoudi"
+  webpage: https://www.kth.se/profile/yousseft
+  photo: Avatar.png
+  info: Master student
+  email: "yousseft@kth.se"
   number_educ: 0
   education1:
   education2:
